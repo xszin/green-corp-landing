@@ -87,6 +87,8 @@ button {
 }
 
 .form {
+    display: flex;
+    justify-content: center;
     background-color: #1D263A;
     color: #fff;
     padding-top: 115px;
@@ -101,4 +103,10 @@ button {
 .form p {
     font-size: 18px;
     opacity: 0.65;
+}
+
+.form__group{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
 }
