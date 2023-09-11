@@ -96,6 +96,43 @@ button {
     text-align: center;
 }
 
+.form label{
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.form input {
+    font-size: 18px;
+    color: #213053;
+    height: 40px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
+    border: none;
+}
+
+.form__submit{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 20px 20px 20px 20px;
+    margin-top: 30px;
+}
+
+.form select {
+    font-size: 18px;
+    color: #213053;
+    height: 60px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 15px;
+    border: none;
+}
+
+.form form {
+    margin-top: 60px;
+    display: grid;
+    grid-gap: 20px;
+}
+
 .form h1 {
     font-size: 48px;
 }
@@ -109,4 +146,12 @@ button {
     display: flex;
     flex-direction: column;
     text-align: left;
+}
+
+select{
+    appearance: none;
+}
+
+input{
+    outline: none;
 }
