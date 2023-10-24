@@ -25,6 +25,7 @@ a {
     width: 100px;
     height: 100px;
     padding-bottom: 115px;
+    position: absolute;
 }
 
 .about {
