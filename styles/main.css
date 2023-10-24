@@ -151,7 +151,7 @@ button {
 .form p {
     font-size: 18px;
     opacity: 0.5;
-
+    color: white;
 }
 
 .form__group{
@@ -211,4 +211,75 @@ footer{
 }
 p{
     color: black;
+}
+
+@media (max-width: 1024px) {
+    body {
+        background-color: white;
+    }
+    .form {
+        padding: 20px 20px;
+        text-align: center;
+    }
+    footer {
+        padding: 20px 20px 20px 20px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .about__image {
+        width: 280px;
+    }
+    .about__sun-image {
+        width: 75px;
+        height: 75px;
+    }
+    .section {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .about h1 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .form h1 {
+        font-size: 36px;
+    }
+    .header__logo {
+        height: 20px;
+    }
+}
+@media (max-width: 720px) {
+    body {
+        background-color: white;
+    }
+    .form {
+        padding: 10px 10px;
+        text-align: center;
+    }
+    footer {
+        padding: 10px 10px 10px 10px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .about__image {
+        width: 280px;
+    }
+    .about__sun-image {
+        width: 75px;
+        height: 75px;
+    }
+    .section {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .about h1 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .form h1 {
+        font-size: 36px;
+    }
+    .header__logo {
+        height: 20px;
+    }
 }
