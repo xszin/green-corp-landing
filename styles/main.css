@@ -3,6 +3,10 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    position: sticky;
+    background-color: white;
+    top: 0;
+    z-index: 1;
 }
 body {
     font-family: 'Raleway', sans-serif;
@@ -46,7 +50,9 @@ a {
 .about p {
     font-size: 18px;
     line-height: 30px;
-    opacity: 0.8%;
+    opacity: 80%;
+
+
 }
 .about button {
     font-size: 18px;
@@ -85,6 +91,7 @@ button {
 
 .form__container {
     width: 550px;
+
 }
 
 .form {
@@ -95,12 +102,14 @@ button {
     padding-top: 115px;
     padding-bottom: 115px;
     text-align: center;
+
 }
 
 .form label{
     font-size: 18px;
     font-weight: 600;
     padding-bottom: 15px;
+
 }
 
 .form input {
@@ -110,6 +119,7 @@ button {
     padding: 10px 10px 10px 10px;
     border-radius: 15px;
     border: none;
+
 }
 
 .form__submit{
@@ -140,7 +150,8 @@ button {
 
 .form p {
     font-size: 18px;
-    opacity: 0.65;
+    opacity: 0.5;
+
 }
 
 .form__group{
@@ -197,4 +208,7 @@ footer{
 
 .footer__links a {
     padding-bottom: 15px;
+}
+p{
+    color: black;
 }
