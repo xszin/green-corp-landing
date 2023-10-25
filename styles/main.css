@@ -28,8 +28,7 @@ a {
 .about__sun-image {
     width: 100px;
     height: 100px;
-    <!--animation: rotate 5s infinite;-->
-    padding-bottom: 115px;
+    animation: rotate 5s infinite;
     position: absolute;
 }
 
