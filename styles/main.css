@@ -28,10 +28,19 @@ a {
 .about__sun-image {
     width: 100px;
     height: 100px;
+    <!--animation: rotate 5s infinite;-->
     padding-bottom: 115px;
     position: absolute;
 }
 
+@keyframes rotate {
+    0% {
+        transform: rotate(-180deg)
+    }
+    100% {
+        transform: rotate(180deg)
+    }
+}
 .about {
     display: flex;
     justify-content: space-around;
@@ -86,7 +95,6 @@ button {
 
 .about__info{
     max-width: 550px;
-
 }
 
 .form__container {
@@ -213,7 +221,7 @@ p{
     color: black;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 720px) {
     body {
         background-color: white;
     }
@@ -248,7 +256,7 @@ p{
         height: 20px;
     }
 }
-@media (max-width: 720px) {
+@media (max-width: 480px) {
     body {
         background-color: white;
     }
